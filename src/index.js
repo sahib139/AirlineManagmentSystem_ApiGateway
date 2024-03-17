@@ -10,6 +10,12 @@ app.use(REQUEST_LIMIT);
 
 const setUpAndStartServer = (req, res) => {
 
+    app.get("/home",(req,res)=>{
+        res.status(200).json({
+            message:"You Hit the Airplane Management API Gateway",
+        });
+    });
+
     app.use("/flightAndSearch",createProxyMiddleware({ target: "http://localhost:3000", changeOrigin: true }));
     app.use("/authService",createProxyMiddleware({ target: "http://localhost:3001", changeOrigin: true }));
     app.use("/bookingService", createProxyMiddleware({ target: "http://localhost:3002", changeOrigin: true }));
