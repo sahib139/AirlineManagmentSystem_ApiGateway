@@ -5,7 +5,7 @@
 - clone the project on your local 
 - Execute `npm i` in the root directory.
 - Create `.env` file in the root directory and add the following environment 
-    - `PORT = 3003`
+    - `PORT = 3004`
 
 ## Following MicroService are connected to this gateway
 
