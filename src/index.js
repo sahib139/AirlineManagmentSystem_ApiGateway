@@ -11,7 +11,7 @@ app.use(REQUEST_LIMIT);
 const setUpAndStartServer = (req, res) => {
 
     app.get("/home",(req,res)=>{
-        res.status(200).json({
+        return res.status(200).json({
             message:"You Hit the Airplane Management API Gateway",
         });
     });

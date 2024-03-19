@@ -1,9 +1,13 @@
-# API Gateway for Airline Management System
-  -> Logs service
-  
-  -> Request Limiter
-  
-  -> prox server to redirect to different service. 
+# Weclome to API Gateway for Airline Management System
+
+## Project Setup
+
+- clone the project on your local 
+- Execute `npm i` in the root directory.
+- Create `.env` file in the root directory and add the following environment 
+    - `PORT = 3003`
+
+## Following MicroService are connected to this gateway
 
 ### Auth Service -> https://github.com/sahib139/Auth_Service
 ### FlightAndSearch Service -> https://github.com/sahib139/FlightandSearch
