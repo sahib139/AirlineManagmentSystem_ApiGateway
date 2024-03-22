@@ -1,5 +1,11 @@
 # Weclome to API Gateway for Airline Management System
 
+## Project Description
+
+- Utilized RabbitMQ for request management between services, ensuring scalability. Included Authentication, Flight Search, Booking, Emailing, and Reminder services.
+- Employed MVC for code organization and separation of concerns, enhancing maintainability.
+- Built a RESTful API for CRUD operations, facilitating seamless frontend-backend interaction.
+
 ## Project Setup
 
 - clone the project on your local 
